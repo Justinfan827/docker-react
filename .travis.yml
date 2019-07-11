@@ -6,7 +6,7 @@ services:
   - docker
 
 before_install:
-  - docker build -f -t jfan827/docker-react Dockerfile.dev .
+  - docker build -t jfan827/docker-react -f Dockerfile.dev .
 
 # commands to run on our test suite
 script: 
